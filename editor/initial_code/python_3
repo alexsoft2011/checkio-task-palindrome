@@ -1,11 +1,12 @@
-def checkio(a, b):
+def checkio(text):
     """
-        sums two passed arguments
+        True or False
     """
     return None
 
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
-    assert checkio(3, 2) == 5
-    assert checkio(5, 7) == 12
+    assert checkio('404') == True
+    assert checkio('Palindrome') == False
+    assert checkio('Amor, Romae') == True
     print('Done')
