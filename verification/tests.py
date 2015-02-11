@@ -11,15 +11,15 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": "404",
+            "input": (((404))),
             "answer": True
         },
         {
-            "input": "Palindrome",
+            "input": (((Palindrome))),
             "answer": False
         },
         {
-            "input": 'Amor, Roma',
+            "input": (((Amor, Roma))),
             "answer": True
         }
     ]
