@@ -13,14 +13,6 @@ TESTS = {
         {
             "input": (((404))),
             "answer": True
-        },
-        {
-            "input": (((Palindrome))),
-            "answer": False
-        },
-        {
-            "input": (((Amor, Roma))),
-            "answer": True
         }
     ]
 }
