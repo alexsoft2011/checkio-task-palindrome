@@ -13,7 +13,6 @@ TESTS = {
         {
             "input": "404",
             "answer": True,
-            "explanation": "404=?"
         }
     ]
 }
