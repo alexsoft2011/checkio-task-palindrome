@@ -1,4 +1,4 @@
-def checkio(*text):
+def checkio(text):
     """
         True or False
     """
