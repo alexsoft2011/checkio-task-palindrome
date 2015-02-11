@@ -11,29 +11,29 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": "404",
+            "input": [404],
             "answer": True,
             "explanation": "404=?"
         },
         {
-            "input": "Palindrome",
+            "input": [Palindrome],
             "answer": False,
             "explanation": "Palindrome=?"
         },
         {
-            "input": "Amor, Roma",
+            "input": [Amor, Roma],
             "answer": True,
             "explanation": "Amor, Roma=?"
         }
     ],
     "Extra": [
         {
-            "input": "No 'x' in Nixon",
+            "input": [No 'x' in Nixon],
             "answer": True,
             "explanation": "No 'x' in Nixon=?"
         },
         {
-            "input": "A Man, A Plan, A Canal, Panama",
+            "input": [A Man, A Plan, A Canal, Panama],
             "answer": True,
             "explanation": "A Man, A Plan, A Canal, Panama=?"
         }
