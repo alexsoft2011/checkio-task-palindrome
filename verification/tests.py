@@ -11,8 +11,8 @@ Each test is dict with
 TESTS = {
     "Basics": [
         {
-            "input": [404],
-            "answer": True,
+            "input": "404",
+            "answer": True
 
         }
         ]
