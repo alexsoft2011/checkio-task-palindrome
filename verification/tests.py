@@ -22,20 +22,6 @@ TESTS = {
             "input": 'Amor, Roma',
             "answer": True
         }
-    ],
-    "Extra": [
-        {
-            "input":'No 'x' in Nixon',
-            "answer": True
-        },
-        {
-            "input": 'A Man, A Plan, A Canal, Panama',
-            "answer": True
-        },
-        {
-            "input": 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
-            "answer": False
-        }
     ]
 }
 
