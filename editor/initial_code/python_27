@@ -1,12 +1,12 @@
+P = (",", ".", "!", "?", "'")
 def checkio(text):
     """
         True or False
     """
     return None
-
 if __name__ == '__main__':
     #These "asserts" using only for self-checking and not necessary for auto-testing
     assert checkio('404') == True
     assert checkio('Palindrome') == False
-    assert checkio('Amor, Romae') == True
+    assert checkio('Amor, Roma') == True
     print('Done')
