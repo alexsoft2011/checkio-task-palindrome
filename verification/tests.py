@@ -21,6 +21,22 @@ TESTS = {
         {
             "input": ["Amor, Roma"],
             "answer": True
+        },
+        {
+            "input": ["race car"],
+            "answer": True
+        },
+        {
+            "input": ["taco cat"],
+            "answer": True
+        },
+        {
+            "input": ["Ho-Oh"],
+            "answer": True
+        },
+        {
+            "input": ["Phone"],
+            "answer": False
         }
     ],
     "Extra": [
@@ -35,6 +51,18 @@ TESTS = {
         {
             "input": ["Lorem Ipsum is simply dummy text of the printing and typesetting industry."],
             "answer": False
+        },
+        {
+            "input": ["Alomomola"],
+            "answer": True
+        },
+        {
+            "input": ["5a4df545s4df565sdf"],
+            "answer": False
+        },
+        {
+            "input": ["N57Askfds5sdfKSa75n"],
+            "answer": True
         }
     ]
 }
